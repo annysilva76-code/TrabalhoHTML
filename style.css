@@ -1,10 +1,24 @@
 h1{
+font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
     color: lightskyblue;
     background-color: lightskyblue;
     background-image: url(fundo-galaxia-realista_23-2148991322.avif)
 
 }
-.tec {
+.cabeçalho {
+    font-size: clamp(1rem, 4vw, 3rem);
+    font-family: fantasy;
+}
 
+h2 {
+    color: lightskyblue;
+    background-image: url(fundo-galaxia-realista_23-2148991322.avif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: center;
+    display: flex;
+}
+.tec {
+ font-size: clamp(1rem, 4vw, 3rem);
+font-family: fantasy;
 }
